@@ -1,5 +1,8 @@
 # Solving Bufferbloat using Multilevel Feedback Queues (MLFQ)
 
+## Installation
+The research paper is not published yet, so the code is not available.
+
 ## Project Overview
 This project implements a **Multilevel Feedback Queue (MLFQ)** algorithm to mitigate the **bufferbloat** problem in networking. The MLFQ prioritizes packet scheduling based on real-time requirements, ensuring low latency for critical applications like video conferencing, online gaming, and streaming services.
 
@@ -12,9 +15,6 @@ Bufferbloat occurs due to excessive packet queuing in oversized network buffers,
 - **Latency Reduction**: Minimizes delay for real-time applications.
 - **Efficient Bandwidth Utilization**: Ensures fair distribution of bandwidth.
 - **Simulation of Network Traffic**: Models packet scheduling in a simulated environment.
-
-## Installation
-The research paper is not published yet, so the code is not available.
 
 ## Usage
 Modify the `config.py` file to customize simulation parameters like packet arrival rates, queue size, and priority levels. Then, execute `main.py` to analyze MLFQ performance.
