@@ -1,7 +1,10 @@
 # Solving Bufferbloat using Multilevel Feedback Queues (MLFQ)
 
 ## Installation
-The research paper is not published yet, so the code is not available.
+```
+git clone "https://github.com/kishan-25/Solving-Bufferbloat-using-Multilevel-Feedback-Queues-MLFQ-.git"
+cd .\Solving-Bufferbloat-using-Multilevel-Feedback-Queues-MLFQ-
+```
 
 ## Project Overview
 This project implements a **Multilevel Feedback Queue (MLFQ)** algorithm to mitigate the **bufferbloat** problem in networking. The MLFQ prioritizes packet scheduling based on real-time requirements, ensuring low latency for critical applications like video conferencing, online gaming, and streaming services.
